@@ -39,9 +39,6 @@ port = 9001
 size = 1024
 backlog = 5
 
-def int_to_list(num):
-    return list ("%05d" % num)
-
 def sendTimeOverSerial(time):
     ser.write(chr(time))
 
